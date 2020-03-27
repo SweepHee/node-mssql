@@ -1,0 +1,30 @@
+{
+  "development": {
+    "username": "smart1",
+    "password": "Kuls!@2019",
+    "database": "TESTERP",
+    "host": "118.35.241.79",
+    "dialect": "mssql",
+    "port": "13580",
+    "operatorsAliases": false,
+    "logging": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "smart1",
+    "password": "Kuls!@2019",
+    "database": "TESTERP",
+    "host": "118.35.241.79:13580",
+    "dialect": "mssql",
+    "port": "13580",
+    "operatorsAliases": false,
+    "logging": false
+  }
+}
