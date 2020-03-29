@@ -17,3 +17,13 @@ npm i -D nodemon
 npm i cors
 // 프론트에서 백엔드로 값을 보낼수 있게 허용할수있음
 // app.js에 app.use(cors("http://localhost:3000"));
+
+// 보안관련
+npm i hpp helmet
+app.js에 
+const hpp = require("hpp");
+const helmet = require("helmet");
+
+app.use(helmet());
+app.use(hpp());
+
